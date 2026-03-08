@@ -9,7 +9,7 @@ const year = new Date().getFullYear()
         <div>
           <p class="eyebrow">Adel H. Mohamed</p>
           <h3 class="heading-md">Designing systems for real-world decisions.</h3>
-          <a class="mailto" href="mailto:akash.kumar.devs@gmail.com">akash.kumar.devs@gmail.com</a>
+          <a class="mailto" href="mailto:adel0800@hotmail.com">adel0800@hotmail.com</a>
         </div>
         <div class="links">
           <a href="https://www.linkedin.com/in/akashkumarsnd" target="_blank" rel="noreferrer">LinkedIn</a>

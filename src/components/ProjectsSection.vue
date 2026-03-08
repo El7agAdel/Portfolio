@@ -1,22 +1,55 @@
 <script setup>
+
+
+import img_LLE_png from '../assets/LLE.png'
+
+import img_kayo_png from '../assets/kayo.png'
+
+import img_abbros2_png from '../assets/abbros2.png'
+
+
 const projects = [
   {
-    title: 'Dazai',
-    subtitle: 'Market-regime aware trading research system with backtesting, analytics, and risk-aware experimentation.',
-    tags: ['Python', 'ML', 'Backtesting'],
-    link: '#',
+    index: 4,
+    title: 'KAYO – Marker-based Tracking',
+    subtitle: 'Augmented Reality · Tracking',
+    summary:
+      'Marker-based tracking prototype for AR-style positioning. Built with classical vision techniques to detect and track a fiducial marker and recover pose-like signals.',
+    tags: ['OpenCV', 'Tracking', 'Pose Estimation', 'Image Processing'],
+    focus: 'Stable tracking and jitter reduction in real-time camera feeds.',
+    link: 'https://youtu.be/Fqq4itgHDtM',
+    category: 'Augmented Reality',
+    featured: false,
+    year: 2025,
+    image: img_kayo_png,
   },
   {
-    title: 'Lexx',
-    subtitle: 'Legal AI using RAG to generate citation-grounded answers over Indian law documents.',
-    tags: ['Next.js', 'FastAPI', 'RAG', 'LLMs'],
-    link: '#',
+    index: 17,
+    title: 'Abb IRB120 ROS2 Humble',
+    subtitle: 'Embedded · Interactive Systems',
+    summary:
+      'Interactive experience build-out (hardware + software) for a live activation setup. (Details available on request.)',
+    tags: ['Embedded', 'Computer Vision', 'Interactive'],
+    focus: 'End-to-end delivery across hardware + software.',
+    link: 'https://github.com/El7agAdel/Abb-IRB120-ROS-Humble',
+    category: 'Robotics',
+    featured: false,
+    year: 2026,
+    image: img_abbros2_png,
   },
   {
-    title: 'Zenin',
-    subtitle: 'Personal finance product focused on understanding spending behavior and savings patterns.',
-    tags: ['React Native', 'Firebase'],
-    link: '#',
+    index: 1,
+    title: 'Low-Light Enhancement (GAN vs U-Net)',
+    subtitle: 'Computer Vision · Deep Learning',
+    summary:
+      'Deep-learning low-light image enhancement comparing GAN and U-Net architectures. Focused on visibility recovery, contrast improvement, and noise suppression under extreme lighting.',
+    tags: ['TensorFlow', 'Keras', 'GAN', 'U-Net', 'Image Processing'],
+    focus: 'Enhancement quality vs structural preservation in low-light scenes.',
+    link: 'https://github.com/El7agAdel/Low-Light-Enhancement-GAN-vs-UNet',
+    category: 'Computer Vision',
+    featured: true,
+    year: 2025,
+    image: img_LLE_png,
   },
 ]
 </script>
@@ -29,7 +62,9 @@ const projects = [
         <article v-for="project in projects" :key="project.title" class="card project-card">
           <div class="meta">
             <p class="eyebrow">Case Study</p>
-            <a class="view" :href="project.link">View Project →</a>
+            <a class="view" :href="project.link" target="_blank" rel="noreferrer noopener">
+              View Project →
+            </a>
           </div>
           <h3 class="heading-md">{{ project.title }}</h3>
           <p class="muted">{{ project.subtitle }}</p>
