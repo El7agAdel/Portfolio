@@ -6,10 +6,9 @@
     <script>
       (function () {
         var path = location.pathname
-        if (path.indexOf('/portfolio/') === 0) {
-          sessionStorage.redirect = path
-        }
-        location.replace('/portfolio/')
+        var base = path.indexOf('/portfolio/') === 0 ? '/portfolio/' : '/'
+        sessionStorage.redirect = path
+        location.replace(base)
       })()
     </script>
   </head>
