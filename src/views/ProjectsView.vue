@@ -1,6 +1,5 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { RouterLink } from 'vue-router'
 import { projects as allProjects } from '../content/projects'
 
 const sortedProjects = [...allProjects].sort(

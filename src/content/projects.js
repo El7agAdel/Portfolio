@@ -1,9 +1,25 @@
 // Projects and case studies shown in /projects and featured on the home page.
 // Tip: keep "category" values consistent – they power the category filters.
 
-// Import all project images so Vite bundles them (required for GitHub Pages)
-const projectImages = import.meta.glob('../assets/*.png', { eager: true, query: '?url', import: 'default' })
-const getImage = (filename) => projectImages[`../assets/${filename}`] || `../assets/${filename}`
+import img_LLE_png from '../assets/LLE.png'
+import img_Valo_png from '../assets/Valo.png'
+import img_LOL_png from '../assets/LOL.png'
+import img_kayo_png from '../assets/kayo.png'
+import img_Virtual_Restaurant_png from '../assets/Virtual_Restaurant.png'
+import img_arpubg_png from '../assets/arpubg.png'
+import img_metahuman_png from '../assets/metahuman.png'
+import img_arorb_png from '../assets/arorb.png'
+import img_tetris_png from '../assets/tetris.png'
+import img_museum_png from '../assets/museum.png'
+import img_iac_png from '../assets/iac.png'
+import img_summit_png from '../assets/summit.png'
+import img_Proseed_png from '../assets/Proseed.png'
+import img_campus_png from '../assets/campus.png'
+import img_arcade_png from '../assets/arcade.png'
+import img_bci_png from '../assets/bci.png'
+import img_abbrl_png from '../assets/abbrl.png'
+import img_catalystros2_png from '../assets/catalystros2.png'
+import img_abbros2_png from '../assets/abbros2.png'
 
 export const projects = [
   {
@@ -18,7 +34,7 @@ export const projects = [
     category: 'Computer Vision',
     featured: true,
     year: 2025,
-    image: getImage('LLE.png'),
+    image: img_LLE_png,
   },
   {
     index: 2,
@@ -32,7 +48,7 @@ export const projects = [
     category: 'Computer Vision',
     featured: true,
     year: 2025,
-    image: getImage('Valo.png'),
+    image: img_Valo_png,
 
   },
   {
@@ -47,7 +63,7 @@ export const projects = [
     category: 'Computer Vision',
     featured: true,
     year: 2025,
-    image: getImage('LOL.png'),
+    image: img_LOL_png,
   },
   {
     index: 4,
@@ -61,7 +77,7 @@ export const projects = [
     category: 'Augmented Reality',
     featured: false,
     year: 2025,
-    image: getImage('kayo.png'),
+    image: img_kayo_png,
   },
   {
     index: 4,
@@ -75,7 +91,7 @@ export const projects = [
     category: 'Augmented Reality',
     featured: false,
     year: 2026,
-    image: getImage('Virtual_Restaurant.png'),
+    image: img_Virtual_Restaurant_png,
   },
   {
     index: 4,
@@ -89,7 +105,7 @@ export const projects = [
     category: 'Augmented Reality',
     featured: false,
     year: 2024,
-    image: getImage('arpubg.png'),
+    image: img_arpubg_png,
   },
   {
     index: 5,
@@ -103,7 +119,7 @@ export const projects = [
     category: 'Augmented Reality',
     featured: false,
     year: 2025,
-    image: getImage('metahuman.png'),
+    image: img_metahuman_png,
   },
   {
     index: 6,
@@ -117,7 +133,7 @@ export const projects = [
     category: 'Augmented Reality',
     featured: false,
     year: 2025,
-    image: getImage('arorb.png'),
+    image: img_arorb_png,
   },
   {
     index: 7,
@@ -131,7 +147,7 @@ export const projects = [
     category: 'Computer Vision',
     featured: false,
     year: 2026,
-    image: getImage('tetris.png'),
+    image: img_tetris_png,
   },
 
   // --- Broadcast / event case studies (rename + fill details) ---
@@ -147,7 +163,7 @@ export const projects = [
     category: 'BroadCast',
     featured: false,
     year: 2025,
-    image: getImage('museum.png'),
+    image: img_museum_png,
   },
   {
     index: 9,
@@ -161,7 +177,7 @@ export const projects = [
     category: 'BroadCast',
     featured: false,
     year: 2022,
-    image: getImage('iac.png'),
+    image: img_iac_png,
   },
   {
     index: 10,
@@ -175,7 +191,7 @@ export const projects = [
     category: 'BroadCast',
     featured: false,
     year: 2025,
-    image: getImage('summit.png'),
+    image: img_summit_png,
   },
   {
     index: 11,
@@ -186,7 +202,7 @@ export const projects = [
     tags: ['Broadcast', 'Audio', 'Video', 'Comms'],
     focus: 'Stable show delivery under real-time constraints.',
     link: 'https://www.linkedin.com/posts/hashemalborno_esports-gamingindustry-activity-7114504284402036738-1WJB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABypsIABjuzVBRV-vEBoMb1QzFhxjlWjnsY',
-    image: getImage('Proseed.png'),
+    image: img_Proseed_png,
     category: 'BroadCast',
     featured: false,
     year: 2023,
@@ -203,7 +219,7 @@ export const projects = [
     category: 'BroadCast',
     featured: false,
     year: 2022,
-    image: getImage('campus.png'),
+    image: img_campus_png,
   },
   {
     index: 13,
@@ -217,7 +233,7 @@ export const projects = [
     category: 'Embedded Systems',
     featured: false,
     year: 2024,
-    image: getImage('arcade.png'),
+    image: img_arcade_png,
   },
   {
     index: 14,
@@ -231,7 +247,7 @@ export const projects = [
     category: 'Robotics',
     featured: false,
     year: 2020,
-    image: getImage('bci.png'),
+    image: img_bci_png,
   },
   {
     index: 15,
@@ -245,7 +261,7 @@ export const projects = [
     category: 'Robotics',
     featured: false,
     year: 2020,
-    image: getImage('abbrl.png'),
+    image: img_abbrl_png,
   },
   {
     index: 16,
@@ -259,7 +275,7 @@ export const projects = [
     category: 'Robotics',
     featured: false,
     year: 2026,
-    image: getImage('catalystros2.png'),
+    image: img_catalystros2_png,
   },
   {
     index: 17,
@@ -273,7 +289,7 @@ export const projects = [
     category: 'Robotics',
     featured: false,
     year: 2026,
-    image: getImage('abbros2.png'),
+    image: img_abbros2_png,
   },
   // // --- Placeholders for what you told me you focus on (fill when ready) ---
   // {
