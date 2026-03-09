@@ -6,10 +6,10 @@
         <RouterLink to="/projects">Projects</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
-        <a href="https://www.linkedin.com/in/adel10youssef/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/adelhmohamed/" target="_blank" rel="noreferrer">LinkedIn</a>
         <a href="https://github.com/El7agAdel" target="_blank" rel="noreferrer">GitHub</a>
       </nav>
-      <a class="btn resume" href="https://drive.google.com/file/d/1hckqiNzvFFKni3tnJEXStqILiV63j8ta/view" target="_blank" rel="noreferrer">Resume</a>
+      <a class="btn resume" href="https://drive.google.com/file/d/1bIpaAnZRALmOPewe6lkTXfbSpPTGWxDa/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
     </div>
   </header>
 </template>

@@ -27,19 +27,21 @@ const highlights = [
     <section class="container intro">
       <div class="section-label">About</div>
       <h1 class="heading-xl">{{ profile.headline }}</h1>
-      <p class="lead">
+      <p class="lead intro-education">
         {{ profile.education.degree }} — {{ profile.education.university }} · {{ profile.education.masters }}
       </p>
-      <p class="muted">{{ profile.intro }}</p>
+      <p class="muted intro-copy">{{ profile.intro }}</p>
     </section>
 
     <section class="container grid two">
       <article class="card block">
         <p class="eyebrow">How I work</p>
         <ul class="list">
-          <li>Start from constraints: latency, compute, reliability, and how it will be used.</li>
-          <li>Build an evaluation loop early (metrics, test scenes, failure cases).</li>
-          <li>Ship iteratively: prototype → harden → document → automate.</li>
+          <li>Start from real-world constraints: latency, compute, reliability, and actual usage context.</li>
+          <li>Define evaluation early through metrics, test scenes, and failure-case analysis.</li>
+          <li>Build iteratively from prototype to robust implementation.</li>
+          <li>Document clearly to support maintainability and handover.</li>
+          <li>Automate workflows and processes to make solutions scalable and production-ready.</li>
         </ul>
       </article>
 
@@ -81,6 +83,17 @@ const highlights = [
 .intro {
   display: grid;
   gap: 12px;
+}
+
+.intro-copy {
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+}
+
+.intro-education {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
 }
 
 .grid.two {

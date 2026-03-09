@@ -4,23 +4,20 @@ const row1 = [
   'Javascript',
   'Typescript',
   'C++',
-  'React',
-  'React Native',
+  'C',
+  'Vue',
   'NodeJs',
-  'Next.js',
-  'Firebase',
 ]
 
 const row2 = [
-  'AWS',
-  'FastAPI',
-  'Tailwind CSS',
-  'Git',
-  'MongoDB',
-  'PyTorch',
-  'Pandas',
-  'Scikit-learn',
-  'Streamlit',
+  // 'Flask',
+  // 'FastAPI',
+  // 'TensorFlow',
+  // 'PyTorch',
+  // 'OpenCV',
+  // 'Pandas',
+  // 'Scikit-learn',
+  // 'Websockets',
 ]
 
 const doubled1 = [...row1, ...row1]

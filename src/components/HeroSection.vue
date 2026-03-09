@@ -8,7 +8,7 @@
           <span class="caret" aria-hidden="true">|</span>
         </h1>
         <p class="lead">
-          A systems-first engineer building interpretable solutions for finance, law, and automation - from data and models to APIs and production interfaces.
+          Mechatronics Engineer & M.Sc. Student | Computer Vision, Robotics, SLAM.
         </p>
         <div class="actions">
           <RouterLink class="btn" to="/projects">View work →</RouterLink>

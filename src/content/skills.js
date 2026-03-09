@@ -7,15 +7,15 @@ export const skillGroups = [
       'Computer Vision (OpenCV)',
       'Deep Learning (PyTorch / TensorFlow)',
       'Image Processing',
-      'OCR & UI-state reconstruction',
-      'Evaluation harnesses & dataset workflows',
+      'OCR ',
+      // 'Evaluation harnesses & dataset workflows',
     ],
   },
   {
     title: 'SLAM & Robotics',
     items: [
       'Visual / Visual-Inertial SLAM',
-      'Sensor fusion (IMU / camera)',
+      // 'Sensor fusion (IMU / camera)',
       'ROS2',
       'Motion planning (MoveIt)',
       'Simulation & calibration',
@@ -27,14 +27,14 @@ export const skillGroups = [
       'Live video pipelines (capture → processing → graphics → output)',
       'Audio / comms engineering',
       'Low-latency overlay workflows',
-      'Unreal Engine / HTML overlays',
+      'Responsive HTML overlays',
       'Production operations & reliability',
     ],
   },
-  {
-    title: 'Software & Tooling',
-    items: ['Python', 'C++', 'Linux', 'Git', 'Docker', 'APIs (FastAPI/Node)'],
-  },
+  // {
+  //   title: 'Software & Tooling',
+  //   items: ['Python', 'C++', 'Linux', 'Git', 'Docker', 'APIs (FastAPI/Node)'],
+  // },
 ]
 
 export const marqueeRows = {
