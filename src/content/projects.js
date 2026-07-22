@@ -41,9 +41,9 @@ export const projects = [
     title: 'Valorant Overlay HUD',
     subtitle: 'Broadcast · Real-time CV + Graphics',
     summary:
-      'A real-time Valorant HUD using Unreal Engine + HTML overlays, powered by computer vision and OCR to extract live in-game state and render broadcast graphics.',
+      'A real-time Valorant HUD using Unreal Engine + HTML overlays, powered by computer vision and OCR to extract live in-game state and render Broadcast graphics.',
     tags: ['OpenCV', 'OCR', 'Python', 'Unreal Engine', 'HTML/CSS/JS'],
-    focus: 'Low-latency in-game data extraction and production-ready real-time broadcast graphics.',
+    focus: 'Low-latency in-game data extraction and production-ready real-time Broadcast graphics.',
     link: 'https://www.youtube.com/watch?v=ZxQeYySgf-8&t=10420s',
     category: 'Computer Vision',
     featured: true,
@@ -56,9 +56,9 @@ export const projects = [
     title: 'League of Legends Overlay HUD',
     subtitle: 'Broadcast · Real-time CV + Graphics',
     summary:
-      'A real-time League Of Legends HUD using Unreal Engine + HTML overlays, powered by computer vision and OCR to extract live in-game state and render broadcast graphics.',
+      'A real-time League of Legends HUD using Unreal Engine + HTML overlays, powered by computer vision and OCR to extract live in-game state and render Broadcast graphics.',
     tags: ['OpenCV', 'OCR', 'Python', 'Unreal Engine', 'HTML/CSS/JS'],
-    focus: 'Robust realtime in-game data extraction and reliable broadcast graphics under live production constraints.',
+    focus: 'Robust real-time in-game data extraction and reliable Broadcast graphics under live production constraints.',
     link: 'https://www.youtube.com/watch?v=3bvnZs5T8GU&t=7451s',
     category: 'Computer Vision',
     featured: true,
@@ -95,7 +95,7 @@ export const projects = [
   },
   {
     index: 4,
-    title: 'PUGB AR',
+    title: 'PUBG AR',
     subtitle: 'Augmented Reality · Mobile AR',
     summary:
       'Promotional Campaign for New Sanhok Destruction Release',
@@ -112,7 +112,7 @@ export const projects = [
     title: 'Meta-HUMAN',
     subtitle: 'Augmented Reality · Tracking',
     summary:
-      'Marker-based tracking prototype for AR-style positioning. Integrated with realtime Face-Mesh Tracking , and realtime voice augmentation',
+      'Marker-based tracking prototype for AR-style positioning. Integrated with real-time face-mesh tracking, and real-time voice augmentation',
     tags: ['OpenCV', 'Tracking', 'Pose Estimation', 'Image Processing', 'Face Tracking', 'Voice Augmentation'],
     focus: 'Real-time face tracking, voice augmentation, and virtual production integration.',
     link: 'https://youtu.be/735IsHcaQYc',
@@ -123,10 +123,10 @@ export const projects = [
   },
   {
     index: 6,
-    title: 'ORBSLAM-AR',
+    title: 'ORB-SLAM-AR',
     subtitle: 'Augmented Reality · Tracking',
     summary:
-      'Integrating state-of-the-art ORBSLAM with Unreal Engine utilizing pose estimation and mapping techniques to render a 3D model',
+      'Integrating state-of-the-art ORB-SLAM with Unreal Engine utilizing pose estimation and mapping techniques to render a 3D model',
     tags: ['SLAM', 'Unreal', 'Pose Estimation'],
     focus: 'SLAM-based pose estimation and stable 3D content placement in real-time AR scenes.',
     link: 'https://youtu.be/iYZwIN7IkSE',
@@ -153,14 +153,14 @@ export const projects = [
   // --- Broadcast / event case studies (rename + fill details) ---
   {
     index: 8,
-    title: 'Grand Egyption Museum',
+    title: 'Grand Egyptian Museum',
     subtitle: 'Broadcast · Audio / Comms',
     summary:
-      'Part of the Audio Engineering team responsible for routing and maintaing audio signals to various pin-points in the venue',
+      'Part of the Audio Engineering team responsible for routing and maintaining audio signals to various endpointss in the venue',
     tags: ['Broadcast', 'Audio', 'Comms', 'Operations'],
     focus: 'Reliable audio routing and signal distribution across a large-scale live venue.',
-    // link: 'https://www.linkedin.com/posts/arabhardware.net_iac2022-iac2022-BroadCast-activity-7005652485398794241-5ibR/',
-    category: 'BroadCast',
+    // link: 'https://www.linkedin.com/posts/arabhardware.net_iac2022-iac2022-Broadcast-activity-7005652485398794241-5ibR/',
+    category: 'Broadcast',
     featured: false,
     year: 2025,
     image: img_museum_png,
@@ -170,11 +170,11 @@ export const projects = [
     title: 'IAC 2022',
     subtitle: 'Broadcast · Audio / Video / Comms',
     summary:
-      'Live event delivery as part of the broadcast engineering team (roles included audio, video, comms, and systems reliability).',
+      'Live event delivery as part of the Broadcast engineering team (roles included audio, video, comms, and systems reliability).',
     tags: ['Broadcast', 'Audio', 'Video', 'Comms', 'Operations'],
     focus: 'Reliable live event delivery across audio, video, comms, and technical operations.',
     link: 'https://www.linkedin.com/posts/arabhardware%2Enet_iac2022-iac2022-esports-activity-7005652485398794241-5ibR?utm_source=share&utm_medium=member_desktop&rcm=ACoAABypsIABjuzVBRV-vEBoMb1QzFhxjlWjnsY',
-    category: 'BroadCast',
+    category: 'Broadcast',
     featured: false,
     year: 2022,
     image: img_iac_png,
@@ -188,7 +188,7 @@ export const projects = [
     tags: ['Broadcast', 'Signal Flow', 'Routing', 'On-site Ops'],
     focus: 'Live production reliability through signal flow design, routing, and on-site troubleshooting.',
     link: 'https://www.linkedin.com/posts/ahmed-abdel-latif-03398036_and-its-a-wrap-on-ess25-as-esports-summit-activity-7384135951733735424-rJdf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABypsIABjuzVBRV-vEBoMb1QzFhxjlWjnsY',
-    category: 'BroadCast',
+    category: 'Broadcast',
     featured: false,
     year: 2025,
     image: img_summit_png,
@@ -203,7 +203,7 @@ export const projects = [
     focus: 'Multi-disciplinary live event support across audio, video, comms, and show operations.',
     link: 'https://www.linkedin.com/posts/hashemalborno_esports-gamingindustry-activity-7114504284402036738-1WJB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABypsIABjuzVBRV-vEBoMb1QzFhxjlWjnsY',
     image: img_Proseed_png,
-    category: 'BroadCast',
+    category: 'Broadcast',
     featured: false,
     year: 2023,
   },
@@ -212,11 +212,11 @@ export const projects = [
     title: 'Campus Clutch',
     subtitle: 'Broadcast · Audio / Video / Comms',
     summary:
-      'Design, Plan, Implement and maintain layered, complex Audio & Video Infrastructures',
+      'Design, Plan, Implement and maintain layered, complex audio and video infrastructure',
     tags: ['Broadcast', 'Audio', 'Video', 'Comms'],
-    focus: 'Designing and maintaining layered broadcast infrastructure for high-pressure live events.',
+    focus: 'Designing and maintaining layered Broadcast infrastructure for high-pressure live events.',
     link: 'https://www.linkedin.com/posts/hashemalborno_esports-gamerslounge-gaming-activity-6995698318609661953-UVu1?utm_source=share&utm_medium=member_desktop&rcm=ACoAABypsIABjuzVBRV-vEBoMb1QzFhxjlWjnsY',
-    category: 'BroadCast',
+    category: 'Broadcast',
     featured: false,
     year: 2022,
     image: img_campus_png,
@@ -237,7 +237,7 @@ export const projects = [
   },
   {
     index: 14,
-    title: 'Brain Computer Interface',
+    title: 'Brain-Computer Interface',
     subtitle: 'BCI · Machine Learning',
     summary:
       'ROS_BrainComputer_Interface is a ROS-based brain-computer interface project that uses SSVEP EEG signals to translate user attention into control commands. It combines OpenBCI signal acquisition, filtering, PCA-based feature extraction, and machine learning classification to create an end-to-end human-machine interaction pipeline.',
@@ -265,11 +265,11 @@ export const projects = [
   },
   {
     index: 16,
-    title: 'Catalyst CRS ROS2 Humble',
+    title: 'Catalyst CRS ROS 2 Humble',
     subtitle: 'Robotics · ROS',
     summary:
       'Catalyst-CRS-ROS-Humble is a ROS 2 Humble robotics simulation project for the Catalyst robot that combines Gazebo Sim, MoveIt 2, and Python control nodes for motion planning and execution. It includes robot simulation, trajectory streaming, pose-based MoveIt control, and a static RGB/depth/stereo camera rig for perception and visualization.',
-    tags: ['Robotics', 'ROS', 'Moveit', 'Gazebo'],
+    tags: ['Robotics', 'ROS', 'MoveIt', 'Gazebo'],
     focus: 'ROS 2 motion planning, trajectory execution, and perception-driven robotics simulation.',
     link: 'https://github.com/El7agAdel/Catalyst-CRS-ROS-Humble',
     category: 'Robotics',
@@ -279,11 +279,11 @@ export const projects = [
   },
   {
     index: 17,
-    title: 'Abb IRB120 ROS2 Humble',
+    title: 'ABB IRB 120 ROS 2 Humble',
     subtitle: 'Robotics · ROS',
     summary:
       'Abb-IRB120-ROS-Humble is a ROS 2 Humble simulation and motion-planning project for the ABB IRB120 robot, built with Gazebo Sim and MoveIt 2. It includes robot control, trajectory execution, and a static RGB/depth/stereo camera rig for visualization and perception experiments.',
-    tags: ['Robotics', 'ROS', 'Moveit', 'Gazebo'],
+    tags: ['Robotics', 'ROS', 'MoveIt', 'Gazebo'],
     focus: 'Robot simulation, motion planning, and perception integration for the ABB IRB120 in ROS 2.',
     link: 'https://github.com/El7agAdel/Abb-IRB120-ROS-Humble',
     category: 'Robotics',
