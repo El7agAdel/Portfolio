@@ -7,7 +7,7 @@ export const skillGroups = [
       'Computer Vision (OpenCV)',
       'Deep Learning (PyTorch / TensorFlow)',
       'Image Processing',
-      'OCR ',
+      'OCR',
       // 'Evaluation harnesses & dataset workflows',
     ],
   },
@@ -16,7 +16,7 @@ export const skillGroups = [
     items: [
       'Visual / Visual-Inertial SLAM',
       // 'Sensor fusion (IMU / camera)',
-      'ROS2',
+      'ROS 2',
       'Motion planning (MoveIt)',
       'Simulation & calibration',
     ],
