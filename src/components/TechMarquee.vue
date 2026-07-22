@@ -1,12 +1,12 @@
 <script setup>
 const row1 = [
   'Python',
-  'Javascript',
-  'Typescript',
+  'JavaScript',
+  'TypeScript',
   'C++',
   'C',
   'Vue',
-  'NodeJs',
+  'Node.js',
 ]
 
 const row2 = [
