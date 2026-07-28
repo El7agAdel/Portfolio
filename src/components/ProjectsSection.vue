@@ -25,12 +25,12 @@ const projects = [
   },
   {
     index: 17,
-    title: 'Abb IRB120 ROS2 Humble',
+    title: 'ABB IRB120 ROS2 Humble',
     subtitle: 'Embedded · Interactive Systems',
     summary:
-      'Interactive experience build-out (hardware + software) for a live activation setup. (Details available on request.)',
+      'A ROS 2 Humble simulation and motion-planning project for the ABB IRB120 robot, built with Gazebo Sim and MoveIt 2.',
     tags: ['Embedded', 'Computer Vision', 'Interactive'],
-    focus: 'End-to-end delivery across hardware + software.',
+    focus: 'Robot simulation, motion planning, and perception integration.',
     link: 'https://github.com/El7agAdel/Abb-IRB120-ROS-Humble',
     category: 'Robotics',
     featured: false,

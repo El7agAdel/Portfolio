@@ -17,7 +17,7 @@ const row2 = [
   // 'OpenCV',
   // 'Pandas',
   // 'Scikit-learn',
-  // 'Websockets',
+  // 'WebSockets',
 ]
 
 const doubled1 = [...row1, ...row1]

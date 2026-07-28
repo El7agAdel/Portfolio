@@ -1,4 +1,6 @@
 <script setup>
+import { profile } from '../content/profile'
+
 const year = new Date().getFullYear()
 </script>
 
@@ -12,9 +14,9 @@ const year = new Date().getFullYear()
           <a class="mailto" href="mailto:adel0800@hotmail.com">adel0800@hotmail.com</a>
         </div>
         <div class="links">
-          <a href="https://www.linkedin.com/in/akashkumarsnd" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/akswnd" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="/Akash_Kumar_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a :href="profile.links.linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a :href="profile.links.github" target="_blank" rel="noreferrer">GitHub</a>
+          <a :href="profile.links.resume" target="_blank" rel="noreferrer">Resume</a>
         </div>
       </div>
       <div class="bottom">

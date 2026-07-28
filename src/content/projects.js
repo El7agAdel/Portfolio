@@ -56,9 +56,9 @@ export const projects = [
     title: 'League of Legends Overlay HUD',
     subtitle: 'Broadcast · Real-time CV + Graphics',
     summary:
-      'A real-time League of Legends HUD using Unreal Engine + HTML overlays, powered by computer vision and OCR to extract live in-game state and render Broadcast graphics.',
+      'A real-time League of Legends HUD using Unreal Engine + HTML overlays, powered by computer vision and OCR to extract live in-game state and render broadcast graphics.',
     tags: ['OpenCV', 'OCR', 'Python', 'Unreal Engine', 'HTML/CSS/JS'],
-    focus: 'Robust real-time in-game data extraction and reliable Broadcast graphics under live production constraints.',
+    focus: 'Robust real-time in-game data extraction and reliable broadcast graphics under live production constraints.',
     link: 'https://www.youtube.com/watch?v=3bvnZs5T8GU&t=7451s',
     category: 'Computer Vision',
     featured: true,
@@ -84,7 +84,7 @@ export const projects = [
     title: 'Virtual Restaurant',
     subtitle: 'Augmented Reality · Mobile AR',
     summary:
-      'Web AR solution for fine dining immersive experience',
+      'A WebAR solution for an immersive fine-dining experience.',
     tags: ['WebAR', 'Tracking', 'Immersive Experience'],
     focus: 'Immersive WebAR dining experiences with stable mobile tracking and accessible interaction.',
     link: 'https://youtu.be/YfkPUAzF6PI',
@@ -98,7 +98,7 @@ export const projects = [
     title: 'PUBG AR',
     subtitle: 'Augmented Reality · Mobile AR',
     summary:
-      'Promotional Campaign for New Sanhok Destruction Release',
+      'A promotional campaign for the New Sanhok Destruction release.',
     tags: ['OpenCV', 'Tracking', 'Pose Estimation', 'Image Processing'],
     focus: 'Engaging mobile AR campaign delivery with stable tracking and promotional interactivity.',
     // link: 'https://youtu.be/Fqq4itgHDtM',
@@ -112,7 +112,7 @@ export const projects = [
     title: 'Meta-HUMAN',
     subtitle: 'Augmented Reality · Tracking',
     summary:
-      'Marker-based tracking prototype for AR-style positioning. Integrated with real-time face-mesh tracking, and real-time voice augmentation',
+      'Marker-based tracking prototype for AR-style positioning, integrated with real-time face-mesh tracking and real-time voice augmentation.',
     tags: ['OpenCV', 'Tracking', 'Pose Estimation', 'Image Processing', 'Face Tracking', 'Voice Augmentation'],
     focus: 'Real-time face tracking, voice augmentation, and virtual production integration.',
     link: 'https://youtu.be/735IsHcaQYc',
@@ -126,7 +126,7 @@ export const projects = [
     title: 'ORB-SLAM-AR',
     subtitle: 'Augmented Reality · Tracking',
     summary:
-      'Integrating state-of-the-art ORB-SLAM with Unreal Engine utilizing pose estimation and mapping techniques to render a 3D model',
+      'Integrated state-of-the-art ORB-SLAM with Unreal Engine, using pose estimation and mapping techniques to render a 3D model.',
     tags: ['SLAM', 'Unreal', 'Pose Estimation'],
     focus: 'SLAM-based pose estimation and stable 3D content placement in real-time AR scenes.',
     link: 'https://youtu.be/iYZwIN7IkSE',
@@ -156,10 +156,10 @@ export const projects = [
     title: 'Grand Egyptian Museum',
     subtitle: 'Broadcast · Audio / Comms',
     summary:
-      'Part of the Audio Engineering team responsible for routing and maintaining audio signals to various endpointss in the venue',
+      'Part of the audio engineering team responsible for routing and maintaining audio signals to various points in the venue.',
     tags: ['Broadcast', 'Audio', 'Comms', 'Operations'],
     focus: 'Reliable audio routing and signal distribution across a large-scale live venue.',
-    // link: 'https://www.linkedin.com/posts/arabhardware.net_iac2022-iac2022-Broadcast-activity-7005652485398794241-5ibR/',
+    // link: 'https://www.linkedin.com/posts/arabhardware.net_iac2022-iac2022-BroadCast-activity-7005652485398794241-5ibR/',
     category: 'Broadcast',
     featured: false,
     year: 2025,
@@ -212,7 +212,7 @@ export const projects = [
     title: 'Campus Clutch',
     subtitle: 'Broadcast · Audio / Video / Comms',
     summary:
-      'Design, Plan, Implement and maintain layered, complex audio and video infrastructure',
+      'Designed, planned, implemented, and maintained layered audio and video infrastructure.',
     tags: ['Broadcast', 'Audio', 'Video', 'Comms'],
     focus: 'Designing and maintaining layered Broadcast infrastructure for high-pressure live events.',
     link: 'https://www.linkedin.com/posts/hashemalborno_esports-gamerslounge-gaming-activity-6995698318609661953-UVu1?utm_source=share&utm_medium=member_desktop&rcm=ACoAABypsIABjuzVBRV-vEBoMb1QzFhxjlWjnsY',

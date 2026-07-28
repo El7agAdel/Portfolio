@@ -5,7 +5,7 @@
       <div class="about-copy">
         <h2 class="heading-lg">I focus on building systems that reduce human effort.</h2>
         <p class="lead">
-          From legal AI with citation-grounded retrieval to market intelligence and trading research, I care about interpretability, speed, and deployability.
+          From computer vision and SLAM to robotics and real-time production systems, I care about reliability, speed, and deployability.
         </p>
       </div>
     </div>
